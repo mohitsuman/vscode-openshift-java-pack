@@ -1,0 +1,43 @@
+{
+    "name": "vscode-openshift-java-pack",
+    "version": "0.0.1",
+    "publisher": "mohitsuman",
+    "displayName": "OpenShift Java Extension Pack",
+    "description": "OpenShift extension pack for Java developers.",
+    "license": "SEE LICENSE IN LICENSE",
+    "preview": true,
+    "galleryBanner": {
+        "color": "#0072c6",
+        "theme": "dark"
+    },
+    "repository": {
+        "url": "https://github.com/mohitsuman/vscode-openshift-java-pack"
+    },
+    "homepage": "https://github.com/mohitsuman/vscode-openshift-java-pack",
+    "bugs": {
+        "url": "https://github.com/mohitsuman/vscode-openshift-java-pack/issues"
+    },
+    "keywords": [
+        "openshift",
+        "kubernetes",
+        "redhat",
+        "java",
+        "containers"
+    ],
+    "categories": [
+        "Extension Packs"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "extensionDependencies": [
+        "mohitsuman.adapters-vscode",
+        "Azure.vscode-kubernetes-tools",
+        "formulahendry.docker-explorer",
+        "PeterJausovec.vscode-docker",
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-maven"
+    ]
+}
