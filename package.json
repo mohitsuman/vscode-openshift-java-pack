@@ -31,13 +31,7 @@
         "vscode": "^1.15.0"
     },
     "extensionDependencies": [
-        "mohitsuman.adapters-vscode",
-        "Azure.vscode-kubernetes-tools",
-        "formulahendry.docker-explorer",
-        "PeterJausovec.vscode-docker",
-        "redhat.java",
-        "vscjava.vscode-java-debug",
-        "vscjava.vscode-java-test",
-        "vscjava.vscode-maven"
+        "mohitsuman.vscode-openshift-extension-pack",
+        "vscjava.vscode-java-pack"
     ]
 }
